@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: green;
+}
+
+form {
+    max-width: 600px;
+    margin: 200px auto 0 auto;
+    padding: 15px;
+    border: 2px solid #ccc;
+}
+
+form .row {
+    width: 100%;
+    margin-bottom: 15px;
+    height: 25px;
+    padding: 5px;
+}

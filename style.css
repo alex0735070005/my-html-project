@@ -39,3 +39,26 @@ header ul a {
     font-size: 24px;
     font-weight: bold;
 }
+
+#container, #page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#page .product {
+    max-width: 220px;
+    text-align: center;
+}
+
+#page .product img {
+    max-width: 100%;
+}
+
+#page {
+    width: 75%;
+    justify-content: space-between;
+}
+
+#sidebar {
+    width: 25%;
+}

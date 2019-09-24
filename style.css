@@ -47,7 +47,7 @@ header ul a {
 #container, #page {
     display: flex;
     flex-wrap: wrap;
-    align-items: end;
+    align-items: start;
 }
 
 #page .product {
@@ -99,6 +99,17 @@ header ul a {
 
 #page .product button:hover {
     background: #6ab13b;
+}
+
+footer {
+    background: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    font-size: 26px;
+    width: 100%;
 }
 
 @media(max-width:700px){
